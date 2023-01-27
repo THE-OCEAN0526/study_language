@@ -10,6 +10,7 @@ switch (整數值) {
 }
 ```
 - 可以指定多個不同的 case
+- break 結束 switch
 - 可以設定 default ，在所有 case 都不符合時執行
 ### 四則運算
 ```
