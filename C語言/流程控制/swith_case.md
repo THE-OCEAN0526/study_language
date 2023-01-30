@@ -14,9 +14,9 @@ switch (整數值) {
 - 可以設定 default ，在所有 case 都不符合時執行
 ### 四則運算
 ```
-#intclud <stdio.h>
+#include <stdio.h>
 int main() {
-  int unm1, num2;
+  int num1, num2;
   char op;
   float answer;
   scanf("%d%c%d", &num1, &op, &num2);
@@ -34,7 +34,7 @@ int main() {
       answer = (float) num1 / num2;
       break;
   }
-  printf("ANS : %f\n", answer);
+  printf("ANS : %.1f\n", answer);
   return 0;
 }
 ```
