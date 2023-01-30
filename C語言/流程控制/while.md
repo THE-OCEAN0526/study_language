@@ -37,7 +37,7 @@ int main(){
 }
 
 ```
-### 求不定整述之總和暨平均
+### 求不定整數之總和暨平均
 ```
 #include <stdio.h>
 int main(){
