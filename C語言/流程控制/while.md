@@ -1,4 +1,4 @@
-## while 述句
+# while 述句
 - while (表示式) {程式片段}
 - 當「表示式」成立時，就執行「程式片段」。
 ### 連續顯示1~10
@@ -60,4 +60,21 @@ int main(){
 	return 0;
 }
 
+```
+
+# do-while 述句
+- do {程式片段} while (表示式);
+- 當「表示式」成立時，就執行「程式片段」。
+- 至少做一次的重複執行
+### 連續顯示1~10
+```
+#include <stdio.h>
+int main() {
+  int count = 0;
+  do {
+  	count = count + 1;
+   	printf("%d\n", count);
+  } while (count < 10);
+  return 0;
+}
 ```
