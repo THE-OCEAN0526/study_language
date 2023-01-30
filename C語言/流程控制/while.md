@@ -1,7 +1,9 @@
 # while 述句
 - while (表示式) {程式片段}
 - 當「表示式」成立時，就執行「程式片段」。
+- 
 ### 連續顯示1~10
+
 ```
 #include <stdio.h>
 int main() {
@@ -13,7 +15,9 @@ int main() {
   return 0;
 }
 ```
+
 ### 猜數字練習
+
 ```
 #include <stdio.h>
 
@@ -35,9 +39,10 @@ int main(){
 		printf("恭喜答對了!! (%d)", count);
 	return 0;
 }
-
 ```
+
 ### 求不定整數之總和暨平均
+
 ```
 #include <stdio.h>
 int main(){
@@ -66,7 +71,9 @@ int main(){
 - do {程式片段} while (表示式);
 - 當「表示式」成立時，就執行「程式片段」。
 - 至少做一次的重複執行
+
 ### 連續顯示1~10
+
 ```
 #include <stdio.h>
 int main() {
@@ -77,4 +84,30 @@ int main() {
   } while (count < 10);
   return 0;
 }
+```
+
+### 猜數字練習
+
+```
+#include <stdio.h>
+
+int main(){
+
+int guess;
+int answer = 4;
+int count = 0;
+do {
+	printf("1~10之間猜一個數字: ");
+	scanf("%d", &guess);
+	count = count + 1 ;
+	if (guess < answer){
+		printf("太小了\n");
+	}else if(guess > answer){
+		printf("太大了\n");
+	}
+} while (count = 0 || guess != answer);
+	printf("恭喜答對了!! (%d)", count);
+	return 0;
+}
+
 ```
