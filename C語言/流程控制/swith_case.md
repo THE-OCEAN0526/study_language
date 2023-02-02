@@ -12,6 +12,14 @@ switch (整數值) {
 - 可以指定多個不同的 case
 - break 結束 switch
 - 可以設定 default ，在所有 case 都不符合時執行
+## break 述句
+- 中斷目前所屬的重複執行述句
+-![image](https://user-images.githubusercontent.com/122972916/216249173-1e2f551c-4ab4-41be-ac88-3f432b4d6669.png)
+
+## continue 述句
+- 在重複執行述句中跳過後面的程式區塊
+![image](https://user-images.githubusercontent.com/122972916/216249454-518edabe-423e-4a92-8934-f3806f9e7adc.png)
+
 ### 四則運算
 ```
 #include <stdio.h>
