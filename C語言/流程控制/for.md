@@ -28,6 +28,23 @@ while(count <= 10) {
  }
 ```
 ### 繪製三角形
+```
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	int N,x,y;
+	while(scanf("%d",&N)==1){
+		for(x=1; x<=N; x++){
+			for(y=1; y<=x; y++){
+				printf("*");
+			}
+			printf("\n");
+		}
+	}
+	system("pause");
+	return 0;
+}
+```
 ### 座標法會至三角形
 - (1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)
 - (2,1)(2,2)(2,3)(2,4)(2,5)(2,6)(2,7)(2,8)(2,9)
