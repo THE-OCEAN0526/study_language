@@ -99,3 +99,48 @@ int main(){
 	return 0;
 }
 ```
+## 找簡易方程式解
+#### 方法一
+```
+#include <stdio.h>
+int main(){
+int x,y;
+	for(x=1;x<=30;x++){
+		for(y=1;y<=30;y++){
+			if(x+y==30 && x*y==221){
+				printf("%d, %d\n",x,y);
+			}
+		}
+	}
+	return 0;
+}
+```
+#### 方法二 (x小Y大)
+```
+#include <stdio.h>
+int main(){
+int x,y;
+	for(x=1;x<=30/2;x++){
+		for(y=30/2;y<=30;y++){
+			if(x+y==30 && x*y==221){
+				printf("%d, %d\n",x,y);
+			}
+		}
+	}
+	return 0;
+}
+```
+#### 方法三 (x小Y大)
+```
+#include <stdio.h>
+int main(){
+int x;
+	for(x=1;x<=30/2;x++){
+		int y=30-x;
+		if(x*y==221){
+			printf("%d, %d,x,y");
+		}
+	}
+	return 0;
+}
+```
