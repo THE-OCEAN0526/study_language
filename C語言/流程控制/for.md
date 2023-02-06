@@ -27,7 +27,7 @@ while(count <= 10) {
   printf("%d\n", count);
  }
 ```
-## [繪製三角形](https://www.youtube.com/watch?v=8WJik0Dqdoc&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=94&ab_channel=FeisStudio)
+## 繪製三角形
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,7 +45,7 @@ int main(){
 	return 0;
 }
 ```
-## 座標法繪製空心三角形
+## [座標法繪製空心三角形](https://www.youtube.com/watch?v=8WJik0Dqdoc&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=94&ab_channel=FeisStudio)
 - (1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)
 - (2,1)(2,2)(2,3)(2,4)(2,5)(2,6)(2,7)(2,8)(2,9)
 - (3,1)(3,2)(3,3)(3,4)(3,5)(3,6)(3,7)(3,8)(3,9)
