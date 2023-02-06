@@ -27,7 +27,7 @@ while(count <= 10) {
   printf("%d\n", count);
  }
 ```
-## 繪製三角形
+## [繪製三角形](https://www.youtube.com/watch?v=8WJik0Dqdoc&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=94&ab_channel=FeisStudio)
 ```
 #include <stdio.h>
 #include <stdlib.h>
