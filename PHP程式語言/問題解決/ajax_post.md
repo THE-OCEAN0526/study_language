@@ -300,9 +300,10 @@ $response['receivedPassword'] = $_POST['password'];
     });
 ```
 <img src="https://github.com/THE-OCEAN0526/Studyed-Program-Language/assets/122972916/7f14d5f9-e6f0-40e2-a2fb-de7eefd348d7" width="500"><br>
-URL用localhost試試，認PHP server沒問題
-<img src="https://github.com/THE-OCEAN0526/Studyed-Program-Language/assets/122972916/e16e0c3f-44c4-490f-998b-7a0d8ddcc617" width="700"><br>
+URL用localhost試試，認PHP server沒問題<br>
+
 console出現PHP警告還有未是先確認email,password的存在
+<img src="https://github.com/THE-OCEAN0526/Studyed-Program-Language/assets/122972916/e16e0c3f-44c4-490f-998b-7a0d8ddcc617" width="700"><br>
 將PHP改這樣
 ```php
 <?php
